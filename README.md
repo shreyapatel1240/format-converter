@@ -17,16 +17,11 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 ```
+Once the application is launched, please visit `http://localhost:3000/api`
 
 ## Run tests
 
 ```bash
 # unit tests
 $ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
