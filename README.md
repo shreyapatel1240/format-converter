@@ -1,8 +1,6 @@
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-Format document content in specified format.
+Format document content in specified format (JSON | String | XML).
 
 ## Project setup
 
