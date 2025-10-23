@@ -56,7 +56,7 @@ export class ConverterController {
     @UploadedFile() document: Express.Multer.File,
     @Body()
     body: ConverterRequestBody,
-  ): Promise<{ converted: any }> {
+  ): Promise<{ converted: string }> {
     const { format, segmentSeparator, elementSeparator } = body;
     if (!document || !document.buffer) {
       throw new BadRequestException('No document uploaded');
